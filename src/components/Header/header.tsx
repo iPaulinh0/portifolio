@@ -12,7 +12,7 @@ import { Separator } from "../ui/separator"
 export function Header() {
     const profile = new URL('https://avatars.githubusercontent.com/u/86086259?v=4').toString()
     return(
-        <div className="w-[1280px] m-auto p-6 flex items-center justify-between max-[1279px]:w-screen">
+        <div className="w-[1280px] m-auto p-6 flex items-center justify-between max-[1279px]:w-screen max-[1279px]:px-10">
             <img src={profile} alt="PV" className="w-16 rounded-full max-sm:w-12" />
             <div className="flex gap-2 max-sm:hidden">
                 <AboutLink />
